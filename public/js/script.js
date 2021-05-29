@@ -5,6 +5,8 @@ const mainSection = document.querySelector(".main__section")
 const logoImg = document.querySelector(".logo__img")
 const textWelcome = document.querySelector(".textWelcome")
 const logoBig = document.querySelector(".main__logoBig")
+
+
 btnStart.addEventListener("click", () => {
     header.style.padding = "34px 44px";
     textWelcome.style.display = "none";
@@ -32,20 +34,23 @@ btnStart.addEventListener("click", () => {
 
     // logoImg.style.width = "75%";
     // logoImg.style.height = "80%";
-    logo.style.width = "222px";
-    logo.style.height = "188px";
-
+    // logo.style.width = "222px";
+    // logo.style.height = "188px";
+    console.log('ass')
+    let btnLogin = document.querySelector(".login__Btn");
+    btnLogin.addEventListener("click", () => {
+        let inputLogin = document.querySelector(".login__input");
+        let val = inputLogin.value;
+        console.log(val)
+        let response = fetch(`http://localhost:3000/auth/login?email=${val}&password=12412`, {
+            method: "POST",
+            body: {
+                email: val,
+                password: 345
+            }
+        })
+    });
 })
 
-// setTimeout(() => {
-//     let inputLogin = document.querySelector(".login__input");
-//     // let val = inputLogin.value;
-//     let btnLogin = document.querySelector(".login__Btn");
-//     btnLogin.addEventListener("click", () => {
-//         let response = fetch(`http://localhost:3000/auth/login?email=${val}&password=12412`, {
-//             method: "POST"
-//         })
-//     });
-// }, 5000)
 
 // url: http://localhost:3000/auth/login?email=bethesda.@gmail.com&password=12412
