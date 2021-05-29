@@ -27,16 +27,11 @@ setTimeout(() => {
     let inputLogin = document.querySelector(".login__input");
     let val = inputLogin.value;
     let btnLogin = document.querySelector(".login__Btn");
-    console.log(btnLogin, "dfdf");
     btnLogin.addEventListener("click", () => {
-        if (val === "логин") {
-            let startText = document.createElement('div');
-            startText.innerHTML = `<p>Добро пожаловать в наш увлекательный проект в ARG формате, для Вас был разработан совершенно новый способ познакомиться с городом Таганрог. Для начала, мы расскажем, что в основу нашего логотипа была взята схема-план города, утвержденная в **** году, добавь эти числа к названию страницы, чтобы перейти на следующий этап</p>`;
-            startText.classList.add('.main__text');
-            mainSection.appendChild(startText)
-        } else {
-            val = 'Пользователь не найден';
-        }
+        let response = fetch(`http://localhost:3000/auth/login?email=${val}&password=12412`, {
+            method: "POST"
+        })
     });
-}, 5000)
+}, 500)
 
+// url: http://localhost:3000/auth/login?email=bethesda.@gmail.com&password=12412
