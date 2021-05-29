@@ -50,12 +50,14 @@ form {
 .logo__blockImg {
     margin: 0 auto;
     width: 296px;
-    height: 257px;
     padding-bottom: 22px;
+    display: flex;
 }
 
 .logo__img {
     margin: 0 auto;
+    width: 75%;
+    height: 80%;
 }
 
 .logo__title {

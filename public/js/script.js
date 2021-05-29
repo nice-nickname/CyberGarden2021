@@ -32,11 +32,6 @@ btnStart.addEventListener("click", () => {
     regForm.classList.add('login');
     mainSection.appendChild(regForm);
 
-    // logoImg.style.width = "75%";
-    // logoImg.style.height = "80%";
-    // logo.style.width = "222px";
-    // logo.style.height = "188px";
-    console.log('ass')
     let btnLogin = document.querySelector(".login__Btn");
     btnLogin.addEventListener("click", () => {
         let inputLogin = document.querySelector(".login__input");
