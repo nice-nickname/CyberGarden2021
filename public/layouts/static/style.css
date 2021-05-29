@@ -1,0 +1,128 @@
+:root {
+    --container-width: 1366px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    margin: 0;
+    background-image: url("./image/Body.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    padding-right: calc(50% - var(--container-width) / 2);
+    padding-left: calc(50% - var(--container-width) / 2);
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.header {
+    padding: 32px 44px 60px 44px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 296px;
+    height: 257px;
+    padding-bottom: 22px;
+}
+
+.logo__img {
+    margin: 0 auto;
+}
+
+.logo__title {
+    margin: 0;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom, rgba(90, 252, 242, 1), #000);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main__btnStart {
+    padding: 10px 98px;
+    font-family: "Titillium Web";
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    font-size: 18px;
+    color: rgba(51, 51, 51, 1);
+    border-radius: 60px;
+    background-color: rgba(191, 191, 191, 0.8);
+}
+
+.login {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 20px 36px 21px 36px;
+    background-color: #fff;
+    border-radius: 21px;
+}
+
+.login__Title {
+    margin-bottom: 22px;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+}
+
+.login__input {
+    display: block;
+    margin: 0 auto 8px auto;
+    width: 258px;
+    padding: 7px 9px;
+    font-size: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.login__input::placeholder {
+    color: #C0C0C0;;
+    text-decoration: underline;
+}
+
+.login__Btn {
+    margin: 0 auto 8px auto;
+    width: 258px;
+    padding: 8px 0;
+    color: #fff;
+    font-size: 20px;
+    background-color: #4BA08C;
+    border-radius: 5px;
+}
