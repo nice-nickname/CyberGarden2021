@@ -8,13 +8,14 @@
 
 
 body {
+    position: relative;
     height: 100vh;
     margin: 0;
     background-image: url("./image/Body.png");
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
+    background-attachment: fixed;
+
 }
 
 .container {
@@ -70,11 +71,12 @@ form {
 }
 
 .main {
-    display: flex;
-    justify-content: center;
+
 }
 
 .main__btnStart {
+    display: block;
+    margin: 0 auto;
     padding: 10px 98px;
     font-family: "Titillium Web";
     text-transform: uppercase;
@@ -93,7 +95,7 @@ form {
     border-radius: 21px;
 }
 
-.login__Title {
+.login__title {
     margin-bottom: 22px;
     text-align: center;
     font-family: "Roboto";
@@ -125,4 +127,27 @@ form {
     font-size: 20px;
     background-color: #4BA08C;
     border-radius: 5px;
+}
+
+
+/*main page*/
+
+.mainHeader {
+    padding-bottom: 253px;
+}
+
+.textWelcome {
+    text-align: center;
+    font-family: "Titillium Web";
+    font-weight: bold;
+    font-size: 20px;
+    color: #ABA8A8;
+    padding-bottom: 74px;
+}
+
+.main__logoBig {
+    position: absolute;
+    top: 61px;
+    left: calc(50% - 352px);
+    z-index: -1;
 }
