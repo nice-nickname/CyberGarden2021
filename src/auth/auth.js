@@ -7,6 +7,8 @@ passport.serializeUser((user, done) => {
     userService.findOrCreateUser(user)
     .then(ur => {
         done(null, ur)
+        console.log(ur)
+        console.log('serialized');
     })
     .catch(error => {
         console.log(error)
