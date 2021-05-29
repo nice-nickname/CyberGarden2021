@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15905a78-906b-4e5b-8f5c-380e23b84930" name="Default Changelist" comment="" />
+    <list default="true" id="15905a78-906b-4e5b-8f5c-380e23b84930" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +40,7 @@
       <updated>1622233244852</updated>
       <workItem from="1622233246541" duration="1073000" />
       <workItem from="1622238144072" duration="6580000" />
-      <workItem from="1622264248821" duration="17393000" />
+      <workItem from="1622264248821" duration="19514000" />
     </task>
     <servers />
   </component>
