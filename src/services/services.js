@@ -1,4 +1,4 @@
-const UserService = require('./UserService')
+const UserService = require('./Users/UserService')
 
 module.exports = {
     UserService

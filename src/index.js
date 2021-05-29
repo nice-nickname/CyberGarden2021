@@ -1,5 +1,5 @@
 const passport      = require('./auth/auth')
-const session       = require('./auth/session')
+const session       = require('./config/session')
 const authMethods   = require('./auth/methods')
 
 module.exports = {
