@@ -1,0 +1,63 @@
+:root {
+    --container-width: 1366px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    background-image: url("./image/Body.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    padding-right: calc(50% - var(--container-width) / 2);
+    padding-left: calc(50% - var(--container-width) / 2);
+}
+
+button {
+    margin: 0;
+    padding: 10px 98px;
+    border-radius: 60px;
+    border: 0;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    background-color: rgba(191, 191, 191, 0.8);
+    cursor: pointer;
+}
+
+.header {
+    padding-bottom: 60px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo__title {
+    margin: 0;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
+}
+
+.option__btn {
+    display: block;
+    margin: 0 auto;
+    font-family: "Titillium Web";
+    font-size: 18px;
+    color: rgba(51, 51, 51, 1);
+
+}

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15905a78-906b-4e5b-8f5c-380e23b84930" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/public/layouts/main.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/public/layouts/main.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layouts/main.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/public/layouts/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layouts/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/layouts/static/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +28,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -36,11 +39,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622233244852</updated>
-      <workItem from="1622233246541" duration="369000" />
+      <workItem from="1622233246541" duration="1073000" />
+      <workItem from="1622238144072" duration="6580000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
