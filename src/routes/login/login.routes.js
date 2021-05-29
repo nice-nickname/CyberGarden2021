@@ -2,6 +2,10 @@ const Router = require('express').Router()
 
 const methods = require('../../index').authMethods
 
+// ========
+// url/auth
+// ========
+
 Router
 // Авторизация
 .post('/login', methods.login())

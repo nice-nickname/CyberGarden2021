@@ -1,8 +1,8 @@
 const { login } = require("../auth/methods");
 
 const LoginRoutes = require('./login/login.routes')
-const RulesRoutes = require('./rules/rules.router')
-const StartRouter = require('./start/start.route')
+const RulesRoutes = require('./rules/rules.routes')
+const StartRouter = require('./start/start.routes')
 
 const Router = require('express').Router()
 
