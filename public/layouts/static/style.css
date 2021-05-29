@@ -41,13 +41,13 @@ form {
     border: 0;
 }
 
-.header {
-    padding: 32px 44px 60px 44px;
-}
+
 
 .logo {
-    display: flex;
-    justify-content: center;
+
+}
+
+.logo__blockImg {
     margin: 0 auto;
     width: 296px;
     height: 257px;
@@ -136,6 +136,7 @@ form {
     padding-bottom: 253px;
 }
 
+
 .textWelcome {
     text-align: center;
     font-family: "Titillium Web";
@@ -146,7 +147,7 @@ form {
 }
 
 .main__logoBig {
-    position: absolute;
+    position: fixed;
     top: 61px;
     left: calc(50% - 352px);
     z-index: -1;
