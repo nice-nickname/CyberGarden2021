@@ -22,6 +22,5 @@ app.use(passport.session())
 
 app.engine('.hbs', hbs({extname: '.hbs'}));
 app.set('view engine', '.hbs');
-app.set('views', path.join(__dirname, '..', '..', 'public'))
 
 module.exports = app

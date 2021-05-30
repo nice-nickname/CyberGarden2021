@@ -2,7 +2,7 @@ const { login } = require("../auth/methods");
 
 const LoginRoutes = require('./login/login.routes')
 const RulesRoutes = require('./rules/rules.routes')
-const StartRouter = require('./start/start.routes')
+const StartRouter = require('./game/start.routes')
 const VerificationRouter = require('./verification/verification.routes')
 
 const Router = require('express').Router()
