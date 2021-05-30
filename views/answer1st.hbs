@@ -9,6 +9,14 @@
     <title>Document</title>
 </head>
 <body>
+
+    <div class="absBlock">
+        <p class="absBlock__info absBlock__route">:\hakaton\final_day\TGN_ARG.exe</p>
+        <p class="absBlock__info absBlock__welcome">Welcome, {{ user.email }}</p>
+        <p class="absBlock__info absBlock__progress">You are at lvl {{ user.stage }}</p>
+        <a class="absBlock__info absText__link" href="/auth/logout">Log out</a>
+    </div>
+
     <header class="quizHeader"></header>
     <section class="content">
         <img class="content__image" src="/image/planTGN.png">
@@ -17,12 +25,18 @@
             <button class="optionBtn" onclick="loadLevelTwo()">Далее</button>
         </div>
     </section>
-    <footer></footer>
+    <footer class="footer container">
+        <div class="footer__partners">
+            <a href="" class="footer__logo">
+                <img src="static/image/partnerLogo.svg" alt="">
+            </a>
+        </div>
+    </footer>
 </body>
 <script>
 
     function loadLevelTwo() {
-        window.location.replace('/firstModule/2')
+        window.location.replace('/firstModule/3')
     }
 
 </script>

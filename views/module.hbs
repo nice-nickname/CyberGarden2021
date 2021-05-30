@@ -10,9 +10,14 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="header">
 
-    </header>
+    <div class="absBlock">
+        <p class="absBlock__info absBlock__route">:\hakaton\final_day\TGN_ARG.exe</p>
+        <p class="absBlock__info absBlock__welcome absBlock__welcomeModule">Welcome, {{ user.email }}</p>
+        <a class="absBlock__info absText__link" href="/auth/logout">Log out</a>
+    </div>
+
+    <header class="header"></header>
     <section class="module">
         <p class="module__title">Выбирай модуль и узнавай много нового!</p>
         <button class="module__btn module__btn_active" onclick="openLink()">

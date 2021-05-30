@@ -9,6 +9,14 @@
     <title>Document</title>
 </head>
 <body>
+
+    <div class="absBlock">
+        <p class="absBlock__info absBlock__route">:\hakaton\final_day\TGN_ARG.exe</p>
+        <p class="absBlock__info absBlock__welcome">Welcome, {{ user.email }}</p>
+        <p class="absBlock__info absBlock__progress">You are at lvl {{ user.stage }}</p>
+        <a class="absBlock__info absText__link" href="/auth/logout">Log out</a>
+    </div>
+
     <header class="header">
         <div class="logo">
             <div class="logo__blockImg">
@@ -22,6 +30,12 @@
             Для Вас был разработан совершенно новый способ познакомиться с городом Таганрог.<br>
             Ответ для перехода на следующий уровень спрятан в логотипе нашей команды.<br> Посмотрите внимательно. 4 цифры нужно добавить к названию этой страницы, чтобы<br> перейти на следующий этап.</p>
     </section>
-
+    <footer class="footer container">
+        <div class="footer__partners">
+            <a href="" class="footer__logo">
+                <img src="/image/partnerLogo.svg" alt="">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>

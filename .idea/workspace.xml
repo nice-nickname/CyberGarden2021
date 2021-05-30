@@ -3,9 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="15905a78-906b-4e5b-8f5c-380e23b84930" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/layouts/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/layouts/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layouts/answer1st.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/layouts/answer1st.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layouts/answer2nd.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/layouts/answer2nd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layouts/answer3rd.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/layouts/answer3rd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layouts/module.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/layouts/module.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layouts/quiz1st.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/layouts/quiz1st.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layouts/quiz2st.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/layouts/quiz2nd.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/layouts/quiz3rd.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/layouts/quiz3rd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layouts/quiz4th.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/layouts/quiz4th.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/layouts/static/image/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/layouts/static/image/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/layouts/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/layouts/static/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +39,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Maldren\Desktop\Hacaton Project\CyberGarden2021\public\layouts" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,7 +54,8 @@
       <updated>1622233244852</updated>
       <workItem from="1622233246541" duration="1073000" />
       <workItem from="1622238144072" duration="6580000" />
-      <workItem from="1622264248821" duration="49059000" />
+      <workItem from="1622264248821" duration="53683000" />
+      <workItem from="1622364273929" duration="7827000" />
     </task>
     <servers />
   </component>

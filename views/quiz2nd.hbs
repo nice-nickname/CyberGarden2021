@@ -9,18 +9,31 @@
     <title>Document</title>
 </head>
 <body>
+
+    <div class="absBlock">
+        <p class="absBlock__info absBlock__route">:\hakaton\final_day\TGN_ARG.exe</p>
+        <p class="absBlock__info absBlock__welcome">Welcome, {{ user.email }}</p>
+        <p class="absBlock__info absBlock__progress">You are at lvl {{ user.stage }}</p>
+        <a class="absBlock__info absText__link" href="/auth/logout">Log out</a>
+    </div>
+
     <header class="quizHeader"></header>
-    <section class="quiz3rd">
-        <p class="quiz3rd__text">Во времена правления Екатерины 2 довольно большую часть населения города Таганрога составляли греки.
-            Катализатором данного события выступило принятие Екатериной Второй рескрипта, в котором она разрешала грекам,
-            не только воевавшим на стороне России в то время, но и всем желающим свободно проживать в Керчи и Еникале(Крыму).
-            Препровождающий правового акта так же добавил к списку городов Таганрог.
-            В результате, в совокупности с процветающей торговлей города, главный фаворит Екатерины Второй, Григорий Потемкин,
-            собирался присвоить Таганрогу именно ЭТО новое имя.</p>
-        <div class="quiz3rd__quest">
-            Агрия Касос Петалудес Килини Китира	Масури <a href="/firstModule/itssosecretroute">Спарта</a> Итаки Эрисо Неаполь Неос Мармарас	Элломенос
-            Иоаннинас
+    <section class="quiz2nd container">
+        <img class="quiz2nd__image" src="/image/crossword.png">
+        <div class="quiz2nd__info">
+            <p class="quiz2nd__text quizHeader__quiz2ndText">В июле 1696 года после взятия русскими войсками турецкой крепости Азов
+                царь Петр оценил выгодное военно-стратегическое положение мыса<br> Таганрог.<br>
+                Он велел заложить здесь крепость, которая должна была стать базой русского военного флота
+                и, как гласит легенда,местом основания<br> новой столицы государства.<br>
+                Но этим планам не суждено было сбыться. Однако, в какой-то момент истории город все же носил статус столицы именно этой республики.</p>
         </div>
     </section>
+    <footer class="footer container">
+        <div class="footer__partners">
+            <a href="" class="footer__logo">
+                <img src="/image/partnerLogo.svg" alt="">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="absBlock">
+        <p class="absBlock__info absBlock__route">:\hakaton\final_day\TGN_ARG.exe</p>
+        <p class="absBlock__info absBlock__welcome">Welcome, {{ user.email }}</p>
+        <p class="absBlock__info absBlock__progress">You are at lvl {{ user.stage }}</p>
+        <a class="absBlock__info absText__link" href="/auth/logout">Log out</a>
+    </div>
+
+    <header class="quizHeader"></header>
+    <section class="contentText containerContentMiddle">
+        <p class="contentText__info">Григорий Потемкин собирался переименовать Таганрог в Спарту — по крайней мере об этом он писал греческому архиепископу Никифору. Почему светлейший князь не выполнил свое обещание, неясно, ведь это намерение входило в один ряд с другими потемкинскими преобразованиями в области топонимики:
+            <br><br>
+
+            «Чтоб более поразить умы блистательностью деяний великия Екатерины, чтоб отрясть и истребить воспоминание о варварах <...> в покоренном полуострове, возобновлены древние именования: Крым наречен Тавридою; близ развалин, где существовал древний Херсонес, из самых тех груд камней при Ахтиярской гавани, возник Севастополь; Ахт Мечет назван Симферополь, Кафа Феодосией, Козлов Евпаторией, Еникаль Пентикапеум, Тамань Фанагорией».
+
+        </p>
+        <button class="optionBtn" onclick="linkToNextLevel()">Далее</button>
+    </section>
+    <footer class="footer container">
+        <div class="footer__partners">
+            <a href="" class="footer__logo">
+                <img src="/image/partnerLogo.svg" alt="">
+            </a>
+        </div>
+    </footer>
+</body>
+<script>
+
+    function linkToNextLevel() {
+        window.location.replace('/firstModule/supersupersecretstash')
+    }
+
+</script>
+</html>

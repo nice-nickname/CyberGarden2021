@@ -1,6 +1,6 @@
 :root {
-    --container-width: 1366px;
-    --container-widthText: 650px;
+    --container-width: 1198px;
+    --container-widthText: 915px;
 }
 
 * {
@@ -19,6 +19,10 @@ body {
 
 }
 
+section {
+    padding-bottom: 60px;
+}
+
 #bodyLogo {
     background-image: url("./image/BodyLogo.png");
 }
@@ -28,7 +32,7 @@ body {
     padding-left: calc(50% - var(--container-width) / 2);
 }
 
-.containerContent {
+.containerText {
     padding-right: calc(50% - var(--container-widthText) / 2);
     padding-left: calc(50% - var(--container-widthText) / 2);
 }
@@ -40,6 +44,7 @@ p {
     color: #fff;
     margin: 0;
     padding: 0;
+    line-height: 1.5;
 }
 
 a {
@@ -97,6 +102,7 @@ form {
 
 .main {
     display: flex;
+    padding-bottom: 0 !important;
 }
 
 .optionBtn {
@@ -195,10 +201,6 @@ form {
     padding-bottom: 133px;
 }
 
-.module {
-    padding-bottom: 110px;
-}
-
 .module__title {
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -235,13 +237,9 @@ form {
 
 /*1st quiz page*/
 
-.header {
+header {
     padding-top: 34px;
     padding-bottom: 14px;
-}
-
-.quiz1 {
-    padding-bottom: 55px;
 }
 
 .quiz1__text {
@@ -258,7 +256,7 @@ form {
 .content {
     display: flex;
     justify-content: space-between;
-    padding: 0 78px 60px 44px;
+    padding: 0 78px 0 44px;
 }
 
 .content__image {
@@ -279,6 +277,18 @@ form {
 
 /*2st quiz page*/
 
+.quiz2nd {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiz2nd__info {
+    margin-left: 100px;
+}
+
+.quiz2nd__text {
+   text-align: center;
+}
 
 .contentText__info {
     text-align: center;
@@ -290,7 +300,6 @@ form {
 
 .quiz3rd {
     padding: 0 100px 63px 100px;
-
 }
 
 .quiz3rd__text {
@@ -299,7 +308,6 @@ form {
 }
 
 .quiz3rd__quest {
-    margin: 0 260px;
     padding: 28px 8px;
     font-size: 30px;
     font-weight: bold;
@@ -307,4 +315,86 @@ form {
     cursor: pointer;
     border: 3px solid #D1A1A1;
     border-radius: 30px;
+}
+
+/*quiz 4th page*/
+
+.quiz4th {
+}
+
+.quiz4th__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz4th__input {
+    font-size: 16px;
+    width: 60%;
+    color: #fff;
+    padding: 14px 50px 14px 14px;
+    background-color: transparent;
+    border: 3px solid #D1A1A1;
+    border-radius: 30px;
+}
+
+.quiz4th__input:focus {
+    outline: none;
+}
+.quiz4th__btn {
+    height: 36px;
+    margin: 0;
+    margin-left: -46px;
+    background-color: transparent;
+}
+
+.quiz4th__btnSvg {
+}
+
+/*4th answer  page*/
+.optionBtn_color_white {
+    color: #fff;
+}
+
+.footer {
+    padding-bottom: 50px;
+}
+
+.footer__partners {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer__logo {
+    width: 141px;
+}
+
+.footer__logo + .footer__logo {
+    margin-left: 20px;
+}
+
+.footer__logo:nth-child(8) {
+    margin-left: 0;
+}
+
+.absBlock {
+    position: absolute;
+    top: 27px;
+    left: 20px;
+}
+
+.absBlock__info {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 14px;
+    color: #ABA8A8;
+    font-weight: 700;
+}
+
+.absBlock__route, .absBlock__welcomeModule {
+    margin-bottom: 30px;
+}
+
+.absText__link {
+    color: rgba(90, 252, 242, 0.5);
 }
