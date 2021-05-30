@@ -1,5 +1,6 @@
 :root {
     --container-width: 1366px;
+    --container-widthText: 650px;
 }
 
 * {
@@ -18,18 +19,31 @@ body {
 
 }
 
+#bodyLogo {
+    background-image: url("./image/BodyLogo.png");
+}
+
 .container {
     padding-right: calc(50% - var(--container-width) / 2);
     padding-left: calc(50% - var(--container-width) / 2);
 }
 
+.containerContent {
+    padding-right: calc(50% - var(--container-widthText) / 2);
+    padding-left: calc(50% - var(--container-widthText) / 2);
+}
 p {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
     margin: 0;
     padding: 0;
 }
 
 button {
-    margin: 0;
+    display: block;
+    margin: 0 auto;
     padding: 0;
     border: 0;
     cursor: pointer;
@@ -48,6 +62,8 @@ form {
 }
 
 .logo__blockImg {
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
     width: 296px;
     padding-bottom: 22px;
@@ -55,6 +71,8 @@ form {
 }
 
 .logo__img {
+    width: 75%;
+    height: 80%;
     margin: 0 auto;
     width: 75%;
     height: 80%;
@@ -62,7 +80,7 @@ form {
 
 .logo__title {
     margin: 0;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
@@ -76,17 +94,23 @@ form {
 
 }
 
-.main__btnStart {
-    display: block;
-    margin: 0 auto;
+.optionBtn {
     padding: 10px 98px;
-    font-family: "Titillium Web";
-    text-transform: uppercase;
+    font-family: "Titillium Web", sans-serif;
     text-decoration-line: underline;
     font-size: 18px;
     color: rgba(51, 51, 51, 1);
     border-radius: 60px;
+    background-color: rgba(75, 160, 140, 0.8);
+}
+
+.main__btn {
+    display: block;
+    margin: 0 auto;
     background-color: rgba(191, 191, 191, 0.8);
+    text-transform: uppercase;
+
+
 }
 
 .login {
@@ -100,7 +124,7 @@ form {
 .login__title {
     margin-bottom: 22px;
     text-align: center;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 500;
     color: #000;
@@ -127,7 +151,7 @@ form {
     padding: 8px 0;
     color: #fff;
     font-size: 20px;
-    background-color: #4BA08C;
+    background-color: #000;
     border-radius: 5px;
 }
 
@@ -139,9 +163,9 @@ form {
 }
 
 
-.textWelcome {
+.main__text {
     text-align: center;
-    font-family: "Titillium Web";
+    font-family: "Titillium Web", sans-serif;
     font-weight: bold;
     font-size: 20px;
     color: #ABA8A8;
@@ -153,4 +177,112 @@ form {
     top: 61px;
     left: calc(50% - 352px);
     z-index: -1;
+}
+
+/*module page*/
+
+.moduleHeader {
+    padding-bottom: 133px;
+}
+
+.module {
+    padding-bottom: 110px;
+}
+
+.module__title {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #ABA8A8;
+    margin-bottom: 78px;
+}
+
+.module__btn {
+    padding: 20px 19px 20px 19px;
+    border-radius: 60px;
+    background-color: rgba(191, 191, 191, 0.8);
+}
+
+.module__btn_active {
+    background-color: rgba(75, 160, 140, 0.8);
+}
+
+.module__btn + .module__btn {
+    margin-top: 30px;
+}
+
+.module__btnText {
+    line-height: 0.7;
+    text-align: start;
+    width: 418px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+}
+
+/*1st quiz page*/
+
+.header {
+    padding-top: 34px;
+    padding-bottom: 14px;
+}
+
+.quiz1 {
+    padding-bottom: 55px;
+}
+
+.quiz1__text {
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+  }
+
+/*1st answer page*/
+
+.quizHeader {
+    padding-bottom: 60px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 78px 60px 44px;
+}
+
+.content__image {
+    width: 460px;
+    height: 380px;
+}
+
+.content__info {
+    margin-left: 100px;
+}
+
+.content__text {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 90px;
+}
+
+
+/*2st quiz page*/
+
+
+.contentText__info {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+/*3rd quiz page */
+
+.quiz3rd {
+    padding: 0 100px 63px 100px;
+
+}
+
+.quiz3rd__text {
+    text-align: center;
 }
