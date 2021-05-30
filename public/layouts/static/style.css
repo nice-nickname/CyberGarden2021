@@ -1,6 +1,7 @@
 :root {
     --container-width: 1366px;
     --container-widthText: 650px;
+    --container-widthMiddle: 915px;
 }
 
 * {
@@ -304,4 +305,38 @@ form {
     cursor: pointer;
     border: 3px solid #D1A1A1;
     border-radius: 30px;
+}
+
+/*quiz 4th page*/
+
+.quiz4th {
+    padding-right: calc(50% - var(--container-widthMiddle) / 2);
+    padding-left: calc(50% - var(--container-widthMiddle) / 2);
+}
+
+.quiz4th__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz4th__input {
+    color: #fff;
+    padding: 14px 50px 14px 14px;
+    background-color: transparent;
+    border: 3px solid #D1A1A1;
+    border-radius: 30px;
+}
+
+.quiz4th__input:focus {
+    outline: none;
+}
+.quiz4th__btn {
+    height: 36px;
+    margin: 0;
+    margin-left: -46px;
+    background-color: transparent;
+}
+
+.quiz4th__btnSvg {
 }
