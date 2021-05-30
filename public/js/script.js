@@ -1,16 +1,21 @@
 const header = document.querySelector(".mainHeader")
 const body = document.querySelector("body")
-const btnStart = document.querySelector(".main__btnStart")
-const mainSection = document.querySelector(".main__section")
+const btnStart = document.querySelector(".main__btn")
+const mainSection = document.querySelector(".main   ")
 const logoImg = document.querySelector(".logo__img")
-const textWelcome = document.querySelector(".textWelcome")
+const textWelcome = document.querySelector(".main__text")
 const logoBig = document.querySelector(".main__logoBig")
-btnStart.addEventListener("click", () => {
+
+function change() {
     header.style.padding = "34px 44px";
+    mainSection.style.display = "flex";
     textWelcome.style.display = "none";
     btnStart.style.display = "none";
-    mainSection.style.display = "flex";
-    logoBig.style.display = "none";
+}
+
+btnStart.addEventListener("click", () => {
+    change()
+
     let logoBlock = document.createElement('div');
     logoBlock.innerHTML = `<div class="logo__blockImg">
                                 <img class="logo__img" src="static/image/logo.png" alt="Логотип">
@@ -20,7 +25,6 @@ btnStart.addEventListener("click", () => {
     logoBlock.classList.add('logo')
     header.appendChild(logoBlock)
 
-
     let regForm = document.createElement('div');
     regForm.innerHTML = `
                                 <p class="login__title">Для продолжения <br>введите Вашу почту:</p>
@@ -29,12 +33,6 @@ btnStart.addEventListener("click", () => {
                         `;
     regForm.classList.add('login');
     mainSection.appendChild(regForm);
-
-    // logoImg.style.width = "75%";
-    // logoImg.style.height = "80%";
-    logo.style.width = "222px";
-    logo.style.height = "188px";
-
 })
 
 // setTimeout(() => {
