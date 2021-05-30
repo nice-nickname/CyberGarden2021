@@ -6,12 +6,7 @@ const logoImg = document.querySelector(".logo__img")
 const textWelcome = document.querySelector(".main__text")
 const logoBig = document.querySelector(".main__logoBig")
 
-<<<<<<< HEAD
-
-btnStart.addEventListener("click", () => {
-=======
 function change() {
->>>>>>> origin/dima
     header.style.padding = "34px 44px";
     mainSection.style.display = "flex";
     textWelcome.style.display = "none";
