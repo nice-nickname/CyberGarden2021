@@ -10,7 +10,8 @@ class UserService {
             },
             defaults: {
                 email: email,
-                stage: 1
+                stage: 1,
+                verified: 0
             }
         })
 
@@ -55,6 +56,16 @@ class UserService {
                 }
             })
         }
+    }
+
+    async markAsVerified(email) {
+        Users.update({
+            verified: 1
+        }, {
+            where: {
+                email: email
+            }
+        })
     }
 }
 

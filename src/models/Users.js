@@ -14,6 +14,9 @@ Users.init({
     },
     stage: {
         type: Sequelize.INTEGER
+    },
+    verified: {
+        type: Sequelize.SMALLINT
     }
 }, {
     sequelize,

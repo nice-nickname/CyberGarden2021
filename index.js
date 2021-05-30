@@ -1,6 +1,8 @@
 const app = require('./src/config/app.config')
 const express = require('express')
 
+require('dotenv').config()
+
 const routes = require('./src/routes/routes')
 
 // ================== Настройки ==================
