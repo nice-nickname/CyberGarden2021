@@ -1,11 +1,13 @@
 const Router = require('express').Router()
 
+// =========
+// url/start
+// =========
+
 Router
 
-
-//
 .get('/', (req, res) => {
-    res.render('start', {
+    res.render('main', {
         user: req.user,
         layout: null
     })
@@ -13,7 +15,7 @@ Router
 
 
 .get('/reg', (req, res) => {
-    res.render('register', {
+    res.render('auth', {
         user: req.user,
         layout: null
     })

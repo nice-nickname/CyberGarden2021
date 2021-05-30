@@ -15,7 +15,7 @@
     </header>
     <section class="module">
         <p class="module__title">Выбирай модуль и узнавай много нового!</p>
-        <button class="module__btn module__btn_active">
+        <button class="module__btn module__btn_active" onclick="openLink()">
             <p class="module__btnText">module 1. taganrog</p>
         </button>
         <button class="module__btn">
@@ -27,4 +27,9 @@
     </section>
     <footer></footer>
 </body>
+<script>
+    function openLink() {
+        window.location.replace('/firstModule/1')
+    }
+</script>
 </html>

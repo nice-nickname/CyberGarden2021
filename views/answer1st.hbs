@@ -11,12 +11,19 @@
 <body>
     <header class="quizHeader"></header>
     <section class="content">
-        <img class="content__image" src="static/image/planTGN.png">
+        <img class="content__image" src="/image/planTGN.png">
         <div class="content__info">
             <p class="content__text">На внутренней стороне логотипа расположена старая карта города Таганрога, которая была создана в 1808 году.<br>Таганрог — первый в истории России город, построенный по заранее разработанному генеральному плану.<br>Таганрогская гавань — первая в мире, построенная не в естественной бухте, а на открытом море.</p>
-            <button class="optionBtn">Далее</button>
+            <button class="optionBtn" onclick="loadLevelTwo()">Далее</button>
         </div>
     </section>
     <footer></footer>
 </body>
+<script>
+
+    function loadLevelTwo() {
+        window.location.replace('/firstModule/2')
+    }
+
+</script>
 </html>

@@ -12,7 +12,7 @@ Router
     let email = req.params.email
     console.log(email)
     await UserService.markAsVerified(email)
-    req.logOut()
+    req.user.verified = 1
     res.redirect('/start')
 })
 

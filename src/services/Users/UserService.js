@@ -48,6 +48,7 @@ class UserService {
         if (user) {
             let stage = +user.get('stage')
             stage++
+            console.log(stage)
             let affected = await Users.update({
                 stage: stage
             }, {

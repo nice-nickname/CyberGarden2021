@@ -10,10 +10,8 @@
 </head>
 <body id="bodyLogo">
     <header class="mainHeader"></header>
-<!--    <div class="main__logoBig">-->
-<!--        <img src="static/image/logoBig.png" alt="">-->
-<!--    </div>-->
     <section class="main">
+    <section style="margin: 0 auto;">
         <p class="main__text">Привет, тебя приветствует команда ADS4589!<br>
             Наверное у тебя появился вопрос для чего нужен наш сайт? Сейчас поясним.<br>
             Наш сайт помогает узнавать новую информацию в формате квест онлайн.<br>
@@ -21,13 +19,17 @@
             Мы стараемся преподнести информацию, легко, удобно и доступно.<br>
             Узнавай много нового вместе с нами.
         </p>
-        <button class="optionBtn main__btn">
+        <button class="optionBtn main__btn" onclick="send()">
             Начать
         </button>
     </section>
     <footer></footer>
     <script defer src="/script.js"></script>
 </body>
-
+<script>
+    function send() {
+        window.location.replace("/start/reg")
+    }
+</script>
 
 </html>

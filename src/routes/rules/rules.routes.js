@@ -13,6 +13,7 @@ Router
 .get('/nextStage', async (req, res) => {
     if (req.user) {
         await UserService.jumpOnNextStage(req.user.email)
+        req.user.stage++
         res.sendStatus(200)
     }
     res.sendStatus(403)
